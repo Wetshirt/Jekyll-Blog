@@ -29,12 +29,16 @@ url: "https://wetshirt.github.io" # the base hostname & protocol for your site, 
 #github_username: Wetshirt
 
 minima:
-  skin: solarized-light
+  skin: auto
+  social_links:
+  - { platform: github,  user_url: "https://github.com/Wetshirt" }
+  
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.

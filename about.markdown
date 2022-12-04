@@ -11,8 +11,8 @@ permalink: /about/
 ---
 ### 施工項目
 
-- [X] 修改網站的背景
-- [ ] 找一個更好的背景
+- :ballot_box_with_check: 修改網站的背景
+- :ballot_box_with_check: 找一個更好的背景
 - [ ] 修改SlideBar的內容
 - [ ] 新增一個專門放leetcode的folder
 - [ ] 將首頁改成[Resume](https://wetshirt.github.io/)
