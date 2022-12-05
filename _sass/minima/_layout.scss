@@ -296,11 +296,73 @@
     a {
       display: block;
       padding: 10px 12px;
-      border: 1px solid $border-color-01;
-      &:hover { border-color: $border-color-02 }
+      
+      //border: 1px dashed #0080FF;
+      //&:hover{border-width : 0px}
+      //border:none
     }
+
+
   }
 }
+
+//加入邊框動畫
+@keyframes clippath {
+  0%,
+  100% {
+      clip-path: inset(0 0 95% 0);
+  }
+  25% {
+      clip-path: inset(0 95% 0 0);
+  }
+  50% {
+      clip-path: inset(95% 0 0 0);
+  }
+  75% {
+      clip-path: inset(0 0 0 95%);
+  }
+}
+
+
+.frame {
+  position: relative;
+  overflow: hidden;
+  margin: 0%;
+  border-radius: 0px;
+  // background: #000;
+  border: 0.5px dashed rgb(0, 140, 255);
+    &:hover{
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // background: red;
+        border: 2px solid rgb(0, 140, 255);
+
+        clip-path: inset(0 0 95% 0);
+        clip-path: inset(0 95% 0 0);
+        clip-path: inset(95% 0 0 0);
+        clip-path: inset(0 0 0 95%);
+        animation: clippath 2s infinite linear;
+        
+      }
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
 
 
 
