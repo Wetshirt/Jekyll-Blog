@@ -13,7 +13,7 @@ permalink: /about/
 
 - :ballot_box_with_check: 修改網站的背景
 - :ballot_box_with_check: 找一個更好的背景
-- [ ] Social Button加入動畫
+- :ballot_box_with_check: Social Button加入動畫
 - [ ] 修改SlideBar的內容
 - [ ] 新增一個專門放leetcode的folder
 - [ ] 將首頁改成[Resume](https://wetshirt.github.io/)
